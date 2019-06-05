@@ -7,3 +7,12 @@ function convertToFahrenheit(temp){
 }
 
 convertToFahrenheit(30);
+
+
+function convertToCelcius(temp){
+    let celc = (temp - 32)* 5/9;
+    console.log(`${temp} degrees in F is ${celc}`);
+    
+}
+
+convertToCelcius(86);
